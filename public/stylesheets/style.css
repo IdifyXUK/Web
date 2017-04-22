@@ -9,3 +9,28 @@ body {
 a {
 	color: #00B7FF;
 }
+
+form {
+	width: 320px;
+	text-align: center;
+}
+
+.formInput, .formButton {
+	display: block;
+	min-height: 50px;
+	min-width: 320px;
+	border-radius: 5px;
+	margin: 5px;
+	font-size: 15px;
+}
+
+.formButton {
+	background-color: #0B24FD;
+	color: #ffffff;
+}
+
+.formLink {
+	text-decoration: none;
+}
+
+

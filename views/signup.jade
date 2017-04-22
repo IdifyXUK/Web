@@ -1,4 +1,12 @@
 extends layout
 
 block content
-	h1 Join Idify
+	form(method='post')
+		h1 Join Idify
+		input(class='formInput' name='firstName' placeholder='First Name')
+		input(class='formInput' name='lastName' placeholder='Last Name')
+		input(class='formInput' name='email' placeholder='Email')
+		input(class='formInput' name='password' placeholder='Password')
+		button(class='formButton' type='submit') Join Idify
+		button(class='formButton' type='submit') Login via Facebook
+		a(class='formLink' href='/login') Have an account already? Click Me!
